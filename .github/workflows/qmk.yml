@@ -3,11 +3,9 @@ name: QMK
 on:
   - push
 
-defaults:
-  run:
-    environment:
-      KEYBOARD: 'fortitude60'
-      KEYMAP: 'via'
+env:
+  KEYBOARD: fortitude60
+  KEYMAP: via
 
 jobs:
   build:
